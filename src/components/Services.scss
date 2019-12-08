@@ -1,0 +1,99 @@
+#services {
+
+    .contain {
+
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+     
+    .title {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }     
+     i {
+            font-size: 2rem;
+            margin-bottom: 1.3rem;
+        }
+ 
+
+    .title .circle {
+            background: #6ca1be;
+            width: 125px;
+            height: 125px;
+            border-radius: 50%;
+            position: absolute;
+            z-index: 0;
+        }
+        
+
+        .title h1 {
+            position: relative;
+            font-size: 2rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #16171b;
+            z-index: 1;
+        }
+
+        .services-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 40px;
+            padding: 2rem;
+        }
+
+        .services-container .box{
+            background: #eeeeee;
+            padding: 2rem 2rem;
+            transition: all .4s ease-in-out;
+            
+
+        }
+          .services-container .box:hover {
+            
+      -webkit-box-shadow: 0px 0px 74px 8px rgba(163, 163, 163, 1);
+      -moz-box-shadow: 0px 0px 74px 8px rgba(163, 163, 163, 1);
+      box-shadow: 0px 0px 74px 8px rgba(163, 163, 163, 1);
+            
+          }
+
+     .services-container .box h5{
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            margin-bottom: 1.5rem;
+        }
+
+             .services-container .box p {
+              color: rgb(126, 119, 119);
+              line-height: 1.5;
+             }
+
+             .blue {
+                border-bottom: 2px solid#75A3E7;
+             }
+
+            .red {
+                 border-bottom: 2px solid #FF4945;
+             }
+
+        .green {
+                 border-bottom: 2px solid#2AC940;
+        }
+
+
+
+
+
+
+
+ 
+
+}
